@@ -4,10 +4,10 @@ local unitName
 local VERSION = GetAddOnMetadata("MekkTool", "Version")
 local soundFile = "Interface\\AddOns\\MekkTool\\Media\\"
 local bgTex = "Interface\\ChatFrame\\ChatFrameBackground"
-
+--[[
 C_Timer.After(5, function()
 	SetCVar("chatBubbles", 1)
-end)
+end)]]
 
 local iconList = {
 	[1] = 286152,	-- 红色扳手
